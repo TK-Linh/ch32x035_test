@@ -1,0 +1,10 @@
+{
+      "files.associations": {
+            "compare": "cpp",
+            "cstdint": "cpp"
+      },
+      "chat.promptFilesLocations":{
+            ".github/prompts": true,
+            "~/Users/vscode/repos/prompts": true
+      }
+}
