@@ -27,10 +27,9 @@ int main()
     bsp_console_init();
     BSP_PRINT("CH32x035 bare-metal firmware ready\r\n");
 
-    // while (1)
-    // {
-    //     GPIOB->OUTDR ^= kLedPin;
-    //     BSP_PRINT("LED toggle\r\n");
-    //     delay_loop(kDelayTicks);
-    // }
+    while (1)
+    {
+        GPIOB->OUTDR ^= kLedPin;
+        delay_loop(kDelayTicks);
+    }
 }
